@@ -28,12 +28,15 @@ public class MainActivity extends Activity {
         Email = (EditText)findViewById(R.id.email);
         Pass = (EditText)findViewById(R.id.pass);
         
+        Login.setHint("Email");
+        Pass.setHint("Password");
         Login.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				if(login(Email.getText().toString(),Pass.getText().toString())){
 					Toast.makeText(getApplicationContext(), "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
+					startActivity(new Intent(MainActivity.this, DashboardActivity.class));	
 				}
 				else{
 					Toast.makeText(getApplicationContext(), "LOGIN NOT SUCCESSFUL", Toast.LENGTH_SHORT).show();
