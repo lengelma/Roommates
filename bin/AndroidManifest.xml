@@ -31,6 +31,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.roommates.MainActivity" />
         </activity>
+        
+        <activity
+            android:name="DashboardActivity"
+            ></activity>
     </application>
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->

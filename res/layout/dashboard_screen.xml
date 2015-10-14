@@ -94,10 +94,5 @@
                 android:orientation="vertical"
                 android:text="@string/summary_button_grocery" />
         </LinearLayout>
-        <!--
-             <RelativeLayout 
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:gravity="center"></RelativeLayout></RelativeLayout>
-        -->
+	</ScrollView>
+</RelativeLayout>
