@@ -1,11 +1,8 @@
 package com.example.roommates;
 
-import java.util.zip.Inflater;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,6 +11,8 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
+	Boolean ATTEMPT_CONNECT = false;
+	
 
 	Button Login;
 	Button Signup;
@@ -28,8 +27,6 @@ public class MainActivity extends Activity {
         Email = (EditText)findViewById(R.id.email);
         Pass = (EditText)findViewById(R.id.pass);
         
-        Login.setHint("Email");
-        Pass.setHint("Password");
         Login.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -51,12 +48,25 @@ public class MainActivity extends Activity {
 			}
 		});
     }
+    
+    @Override
+    protected void onPause(){
+           super.onPause();
 
+            // Clear all value here
+           Email.setText("");
+           Pass.setText("");
+    }
+    
     public boolean login(String email, String password){
     	
     	if(email.contains("@") && password.length()>4){
     		//TODO
-    		return true;
+    		if(!ATTEMPT_CONNECT){
+    			return true;
+    		}else{
+    			
+    		}
     	}
     	return false;
     }
