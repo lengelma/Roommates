@@ -38,7 +38,7 @@ public class DashboardActivity extends Activity {
 			switch(v.getId())
 			{
 			case R.id.dashboard_calendar_button :
-				intent = new Intent(DashboardActivity.this, CalenderActivity.class);
+				intent = new Intent(DashboardActivity.this, CalendarActivity.class);
 				break;
 				
 			case R.id.dashboard_summary_button :
@@ -46,7 +46,7 @@ public class DashboardActivity extends Activity {
 				break;
 				
 			case R.id.dashboard_grocery_button :
-				intent = new Intent(DashboardActivity.this, BillSummaryActivity.class);
+				intent = new Intent(DashboardActivity.this, GrocerySplitActivity.class);
 				break;
 				
 			default :

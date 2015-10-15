@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				if(login(Email.getText().toString(),Pass.getText().toString())){
-					Toast.makeText(getApplicationContext(), "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
+					//Toast.makeText(getApplicationContext(), "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
 					startActivity(new Intent(MainActivity.this, DashboardActivity.class));	
 				}
 				else{
@@ -65,7 +65,7 @@ public class MainActivity extends Activity {
     		if(!ATTEMPT_CONNECT){
     			return true;
     		}else{
-    			
+    			return true;
     		}
     	}
     	return false;
