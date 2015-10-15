@@ -38,15 +38,15 @@ public class DashboardActivity extends Activity {
 			switch(v.getId())
 			{
 			case R.id.dashboard_calendar_button :
-				intent = new Intent();
+				intent = new Intent(DashboardActivity.this, CalenderActivity.class);
 				break;
 				
 			case R.id.dashboard_summary_button :
-				intent = new Intent();
+				intent = new Intent(DashboardActivity.this, BillSummaryActivity.class);
 				break;
 				
 			case R.id.dashboard_grocery_button :
-				intent = new Intent();
+				intent = new Intent(DashboardActivity.this, BillSummaryActivity.class);
 				break;
 				
 			default :

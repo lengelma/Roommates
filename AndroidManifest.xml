@@ -35,6 +35,9 @@
         <activity
             android:name="DashboardActivity"
             ></activity>
+        <activity android:name="CalenderActivity"></activity>
+        <activity android:name="BillSummaryActivity"></activity>
+        <activity android:name="GrocerySplitActivity"></activity>
     </application>
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
