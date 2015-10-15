@@ -11,7 +11,8 @@
     <string name="calendar_button_text">Calendar</string>
     <string name="summary_button_text">Summary Of Bills</string>
     <string name="summary_button_grocery">Split Grocery</string>
-    <string name="rent_label">RENT</string>
+    <string name="rent_label">Rent</string>
     <string name="add">add</string>
+    <string name="utility_label">Utilities</string>
     
     </resources>
