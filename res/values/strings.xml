@@ -14,5 +14,6 @@
     <string name="rent_label">Rent</string>
     <string name="add">add</string>
     <string name="utility_label">Utilities</string>
+    <string name="add_utility_btn">Add Utility</string>
     
     </resources>
