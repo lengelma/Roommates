@@ -1,10 +1,11 @@
-package com.example.roommates;
+package com.example.roommates.activities;
 
 import java.util.ArrayList;
 
 import com.example.activity_services.BillSummaryService;
 import com.example.adaptors.UtilityArrayAdapter;
 import com.example.data_structures.UtilityObject;
+import com.example.roommates.R;
 
 import android.app.Activity;
 import android.content.Intent;

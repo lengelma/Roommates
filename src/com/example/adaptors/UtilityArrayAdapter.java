@@ -1,11 +1,7 @@
 package com.example.adaptors;
 
-import java.util.ArrayList;
 import java.util.List;
-
 import com.example.data_structures.UtilityObject;
-import com.example.roommates.BillSummaryActivity;
-
 import android.content.Context;
 import android.widget.ArrayAdapter;
 

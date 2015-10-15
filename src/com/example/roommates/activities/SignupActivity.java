@@ -1,8 +1,11 @@
-package com.example.roommates;
+package com.example.roommates.activities;
 
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.roommates.R;
+
 import android.app.Activity;
 
 public class SignupActivity extends Activity {

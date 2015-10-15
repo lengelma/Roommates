@@ -1,4 +1,4 @@
-package com.example.roommates;
+package com.example.roommates.utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -13,6 +13,10 @@ public class Utility {
     public static boolean isNotNull(String txt) {
         // System.out.println("Inside isNotNull");
         return txt != null && txt.trim().length() >= 0 ? true : false;
+    }
+    
+    public static boolean equalToZero(float number) {
+    	return Math.abs(number) < 1e-6;
     }
  
     /**

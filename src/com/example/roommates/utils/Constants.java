@@ -1,4 +1,4 @@
-package com.example.roommates;
+package com.example.roommates.utils;
 
 public class Constants {
     public static String dbClass = "com.mysql.jdbc.Driver";

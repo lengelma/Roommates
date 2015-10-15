@@ -1,4 +1,6 @@
-package com.example.roommates;
+package com.example.roommates.activities;
+
+import com.example.roommates.R;
 
 import android.app.Activity;
 import android.content.Intent;

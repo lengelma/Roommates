@@ -1,4 +1,4 @@
-package com.example.roommates;
+package com.example.roommates.utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
