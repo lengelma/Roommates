@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/unknown_user"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/bill_amount_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_name"
+        android:gravity="center_horizontal"
+        android:paddingTop="25dp"
+        android:text="@string/amount_due"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/bill_amount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bill_amount_label"
+        android:gravity="center_horizontal"
+        android:paddingTop="2dp"
+        android:text="@string/empty_currency"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/due_date_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bill_amount"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:text="@string/due_date_label"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/due_date_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/due_date_label"
+        android:gravity="center_horizontal"
+        android:paddingTop="2dp"
+        android:text="@string/empty_date"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/pay_bill_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/pay_bill_text" />
+
+</RelativeLayout>

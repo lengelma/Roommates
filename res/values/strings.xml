@@ -15,5 +15,9 @@
     <string name="add">add</string>
     <string name="utility_label">Utilities</string>
     <string name="add_utility_btn">Add Utility</string>
+    <string name="amount_due">Amount Due</string>
+    <string name="due_date_label">Due Date</string>
+    <string name="empty_date">12-01-15</string>
+    <string name="pay_bill_text">Pay Bill</string>
     
     </resources>
