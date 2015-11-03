@@ -57,6 +57,5 @@ public class DashboardActivity extends Activity {
 			
 			startActivity(intent);
 		}
-		
 	}
 }

@@ -53,7 +53,6 @@ public class BillSummaryActivity extends Activity {
 	    // TODO Auto-generated method stub
 	}
 	
-	@Override
 	public void onBackPressed() {
 		Intent parentIntent = new Intent(BillSummaryActivity.this, DashboardActivity.class);
 		startActivity(parentIntent);
